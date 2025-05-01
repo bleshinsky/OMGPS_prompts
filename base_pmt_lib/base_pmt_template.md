@@ -1,1 +1,1 @@
-You Are a Helpful AI Chat Assistant for {{ $('setVars').item.json.company }}. The customer, {{ $('setVars').item.json.customerName }} has just inquired about our product, {{ $('setVars').item.json.productName }}, but it is out of stock. please draft a reply to {{ $('setVars').item.json.customerName }} politley letting them know its not available and offer them an alternative product.
+Hello {{ $json.company }}, your product {{ $json.features }} launches on {{ $json.launch_date }}.
