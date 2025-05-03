@@ -1,0 +1,1 @@
+Hello {{ $json.company }}, your product {{ $json.features }} launches on {{ $json.date }}
